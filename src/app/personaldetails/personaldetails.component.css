@@ -1,0 +1,51 @@
+
+.container{
+    width: 100%;
+ }
+.topbar{
+    height: 56px;
+   background-color: #ffffff ;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin: 0px;
+  }
+  .productcard{
+      padding: 10px;
+      font-family: Roboto;
+      font-size: 20px;
+      text-align: left;
+      color: #000000 ;
+  }
+  .personaldetails {
+      margin-top: 5px;
+  }
+  .personaldetails mat-card{
+      padding: 15px;
+  }
+
+  .buttonstyle button{
+      background-color: #34a853;
+  }
+  .personalstyle h4{
+      color:  #4285f4;
+  }
+  .personalbottom{
+    border-bottom: solid 2px #e0e0e0;
+    padding: 10px;
+
+  }
+  .mat-form-field-wrapper {
+      width: 273%;
+  }
+  .name{
+      width:103%
+  }
+  .textfieldstyle{
+      width: 104%;
+  }
+  .textfieldstop{
+      margin-top: 20px;
+  }
+ 
+  
+  

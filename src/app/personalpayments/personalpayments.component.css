@@ -1,0 +1,163 @@
+.body{
+    font-family: Roboto;
+ }
+.container{
+    width: 100%;
+ }
+   
+ .topbar{
+    height: 56px;
+    background-color: #ffffff ;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+   }
+   .mat-card{
+       padding: 16px;
+   }
+   .productcard{
+       padding: 10px;
+       font-family: Roboto;
+       font-size: 20px;
+       text-align: left;
+       color: #000000 ;
+   }
+   .persondetail{
+    border-bottom-style: solid;
+    border-bottom-color: #e1e1e1 ;
+   }
+   .personal{
+    color:#4285f4;
+    font-weight: 50px;  
+   }
+   .modeedit {
+    color: white;
+    background-color: #fbbc05;
+    border-radius: 10px;
+    font-size: 17px;
+    /* width: 12%; */
+    padding: 2px;
+    margin-top: 5px; 
+}
+.username{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.emails{
+    color: #b9bbbd;
+    width: 35px;
+}
+.email{
+    color: #000000;
+    padding: 0px;
+    border-right-style: solid;
+    border-right-color: #e1e1e1 ;
+   
+}
+.phoneno{
+    color: #b9bbbd;
+    width: 40px;
+    
+}
+.material-icons{
+    font-size: 18px;
+}
+.location{
+    color: #b9bbbd;
+}
+.location{
+    width: 0px;
+}
+.locations{
+    color:#b9bbbd;
+}
+.payment{
+       padding: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #e1e1e1 ;
+   }
+   .paymentstyles button{
+    background-color: #34a853;
+    color: #ffffff;
+}
+.paymentstyles h2{
+    color: #d23c30;
+}
+
+.calenders{
+    /* width: 100px;
+   height: 4.8px; */
+   color: #fbbc05 ;
+   margin-top:10px;
+    }  
+.paymentbtn{
+    margin-top: 5px;
+}
+.milksubscription{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0px;
+    width: 261px;
+    } 
+    .calender {
+        margin-top: 10px;
+        width: 166px;
+        height: 36px;
+        border-radius: 100px;
+        background-color: #ffffff ;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+        }
+   
+    .date{
+        float: right;
+        width: 110px;
+        margin-top: 10px;
+    }
+    .fullcream{
+        margin-top:10px;
+        padding-left: 0px;
+    }
+    
+    
+    img{
+        width: 50px;
+        margin-top: 12px;
+    }
+    .milkpac{
+       border-bottom-style: solid;
+       border-bottom-color: #e1e1e1 ; 
+    }
+    .milkimg{
+    padding-top:1px;
+    }
+    .milkheading{}
+    .quality{
+        color:#b9bbbd;
+    }
+    .span{
+        font-size: 10px;
+    }
+    .rups{
+        padding: 5px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .everyday{
+        border-radius: 2px;
+        border: solid seagreen 1px; 
+        width: 80px;
+        padding:5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: seagreen;
+
+    }
+.add{
+    background-color:  #fbbc05 ;
+    color: #ffffff ;
+    margin-right:0px;
+    width: 40px;
+    font-size: 30px;
+ }

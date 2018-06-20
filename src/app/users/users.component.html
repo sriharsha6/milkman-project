@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 topbar">
+        <mat-card class="productcard">Users</mat-card>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" class="searchbar">
+          <div class="input-group stylish-input-group">
+              <input type="text" class="form-control"  placeholder="Search" >
+              <span class="input-group-addon">
+                  <button type="submit">
+                      <span class="glyphicon glyphicon-search"></span>
+                  </button>  
+              </span>
+          </div>
+          <!-- <mat-toolbar  class="spotlight"><i  id="Icon"class="material-icons">search</i>Search</mat-toolbar> -->
+      </div>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 userdetails"  *ngFor="let detail of details">
+        <mat-card class="cardpadding">
+          <div class="row">
+            <div class="col-md-8 editnames">
+              <h5>{{detail.name}}</h5>
+              <div class="row fontsize">
+                <div class="col-md-6">
+                  <h6>{{detail.phone}}</h6>
+                </div>
+                <div class="col-md-6">
+                  <h6>{{detail.email}}</h6> 
+                </div>
+              </div>
+            
+            </div>
+            <div class="col-md-4 text-right editicon">
+                <a routerLink="./personaldetails"><i class="material-icons modeedit">mode_edit</i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 addresscontent">
+              <h6>Plot no 702, Nameless apartments, Namefull <br>
+                colony, Kukatpally, Hyderabad</h6>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 paymentscost">
+              <h5>Payments Due</h5>
+              <h4>$ 1500</h4>
+            </div>
+          </div>
+        </mat-card>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-right">
+          
+      <a routerLink="./userregistration"><button mat-mini-fab class="add"><mat-icon>add</mat-icon></button></a>
+      </div>
+    </div>
+   </div>
+
+</div>
+
+<!-- <router-outlet></router-outlet>  -->
+<!-- {{details | json}} -->

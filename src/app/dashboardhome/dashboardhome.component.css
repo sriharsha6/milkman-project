@@ -1,0 +1,132 @@
+.topbar mat-card{
+    height: 46px;
+    padding: 16px;
+ }
+ .example-card {
+   width: 400px;
+ }
+ 
+ .example-header-image {
+   background-image: url('');
+   background-size: cover;
+ }
+
+ .topbar mat-card{
+    font-family: Roboto;
+    font-size:18px;
+    font-weight:300;
+ }
+ .paymentcard {
+     padding:15px;
+     padding-left: 15px;
+     
+
+ }
+ .borderbottom{
+     border-bottom: solid 1px #e0e0e0;
+ }
+ #payments mat-card{
+   width:100%;
+   height:223px;
+   margin-top: 16px;
+   border-radius: 2px;
+ }
+ #milksupplies mat-card{
+   width:100%;
+   margin-top: 16px;
+   border-radius:2px;
+ }
+ .payments mat-icon{
+    color: #d23c30;
+    font-size:40px;
+    float: left;
+}
+.paymentscost p {
+    
+    font-family:Roboto;
+    font-size: 16px;
+
+}
+.paymentscost h4 {
+    font-size: 26px;
+    margin-right:38px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #d23c30;
+
+}
+.border{
+    border: solid 1px #e0e0e0;
+}
+.dates{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #b4b3b3;
+    
+}
+.dates li{
+    padding: 2px;
+}
+.supplies{
+    padding: 15px;
+}
+.milksupplies h6{
+   
+    font-size: 16px;
+    color: #4285f4;
+    border-radius: 2px;
+}
+.milksupplies p{
+    color: #b4b3b3;
+    font-family: Roboto;
+    
+}
+.print{
+    float: right;
+    padding: 8px;
+    font-size: medium;
+    color: #fbbc05;
+}
+.bottomsupplies{
+    border: solid 1px #979797;
+}
+.milktype ul{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+    font-family: BrandonGrotesque;
+}
+.milklitre ul{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 13px;
+    font-family: BrandonGrotesque;
+
+}
+.milkcost ul{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 13px;
+    font-family: BrandonGrotesque;
+
+}
+ .mat-button{
+    float: right;
+    border-radius: 2px;
+    background-color: #fbbc05;
+    /* width: 88px; */
+    margin-right: 11px;
+    width: 10%;
+    height: 30px;
+    color: white;
+    font-size: 11px;
+}
+.milkbottom{
+    border-bottom: solid 1px #979797;
+}
+.margin{
+    margin-top: 12px;
+}

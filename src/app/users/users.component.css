@@ -1,0 +1,93 @@
+.body{
+    font-family: Roboto;
+ }
+ .container{
+    width: 100%;
+ }
+   
+ .topbar{
+    height: 56px;
+    background-color: #ffffff ;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+   }
+   .productcard{
+       padding: 10px;
+       font-family: Roboto;
+       font-size: 20px;
+       text-align: left;
+       color: #000000 ;
+   }
+   .searchbar{
+   margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+  #imaginary_container{
+   margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+   background: #f5f4f5 !important; 
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    background-color: #f5f4f5;
+}
+.stylish-input-group button{
+   border:0;
+   background:transparent;
+}
+.userdetails{
+    padding-left: 0px;
+}
+.userdetails .mat-card{
+    margin-top: 10px;
+}
+.modeedit {
+    color: white;
+    background-color: #fbbc05;
+    border-radius: 10px;
+    font-size: 17px;
+    /* width: 12%; */
+    padding: 2px;
+}
+.editnames h5{
+    margin-top: 3px;
+    color: #fbbc05;
+    font-size: 17px;
+
+}
+.fontsize h6{
+    font-weight: bold;
+}
+.addresscontent h6{
+    color: #c2c2c2;
+    border-bottom:solid 1px #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.paymentscost h4 {
+    font-size: 22px;
+    margin-right:38px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #d23c30;
+
+}
+.cardpadding {
+    padding: 10px;
+}
+.spotlight{
+    min-height: 59px;
+    border-radius: 3px;
+}
+.add{
+    background-color:  #fbbc05 ;
+    color: #ffffff ;
+    margin: 10px;
+    margin-right: 0px;
+    width: 40px;
+ }

@@ -1,0 +1,114 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 topbar">
+      <mat-card class="productcard">Products</mat-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" class="searchbar">
+        <div class="input-group stylish-input-group">
+            <input type="text" class="form-control"  placeholder="Search" >
+            <span class="input-group-addon">
+                <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>  
+            </span>
+        </div>
+        <!-- <mat-toolbar  class="spotlight"><i  id="Icon"class="material-icons">search</i>Search</mat-toolbar> -->
+    </div>
+  </div>
+  <div class="container-fuild">
+      <div class="row">
+       <div class="col-md-4 fullcream" *ngFor="let productdetail of productdetails">
+         <mat-card class="milkcard">
+           <div class="row milkpac">
+             <div class="col-md-2 milkimg">
+               <img src="/assets/images/milk.png">
+               </div>
+               <div class="col-md-6 milkheading">
+                 <!-- <h5>Full Cream Milk</h5> -->
+                 <h5>{{productdetail.name}}</h5>
+                 <h6>Heritage</h6>
+                </div>
+                <div class="col-md-4 text-right">
+                   <i class="material-icons modeedit">mode_edit</i>
+                </div>
+            </div>
+            <div class="row Litre" *ngFor="let item of productdetail.product_skus">
+              <div class="col-md-6">
+                 <h6>1 Litre</h6>
+              </div>
+              <div class="cold-md-6 text-right rup">
+              <h6>  ${{item.price}}</h6>
+              </div>
+            </div>
+           <div class="row ml" *ngFor="let item of productdetail.product_skus">
+             <div class="col-md-6">
+               <h6>500 ml</h6>
+             </div>
+             <div class="col-md-6 text-right">
+               <h6>${{item.price}}</h6>
+               </div>      
+             </div>
+         </mat-card>
+      
+       </div>
+       <div class="col-md-4 fullcream">
+          <mat-card class="milkcard">
+          <div class="row milkpac">
+          <div class="col-md-2 milkimg">
+          <img src="/assets/images/milk.png">
+          </div>
+          <div class="col-md-6 milkheading">
+          <h5>Full Cream Milk</h5>
+          <h6>Heritage</h6>
+          </div>
+          <div class="col-md-4 text-right">
+          <i class="material-icons dones">done</i>
+          </div>
+          </div>
+          <div class="row Litre">
+          <div class="col-md-6">
+          <!-- <h6>1 Litre</h6> -->
+          <form class="example-form">
+          <mat-form-field class="example-full-width">
+          <input matInput value="1 Litre">
+          </mat-form-field>
+          </form>
+                          
+          </div>
+          <div class="cold-md-6">
+          <!-- <h6>$45</h6> -->
+          <form class="example-form">
+          <mat-form-field class="example-full-width" style="padding-left:16px">
+          <input matInput value="$45">
+          </mat-form-field>
+          </form>
+          </div>
+          </div>
+          <div class="row mls">
+          <div class="col-md-6">
+          <form class="example-form">
+          <mat-form-field class="example-full-width">
+          <input matInput value="1 Litre">
+          </mat-form-field>
+          </form>
+          </div>
+          <div class="col-md-6">
+          <form class="example-form">
+          <mat-form-field class="example-full-width">
+          <input matInput value="$45">
+          </mat-form-field>
+          </form>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-md-2">
+          <i class="material-icons add">add_circle</i>
+          </div>
+          </div>
+          </mat-card>
+          </div>
+          </div>
+          </div>
+  <!-- colsing main container-->

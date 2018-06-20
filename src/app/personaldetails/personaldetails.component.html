@@ -1,0 +1,101 @@
+<div class="container">
+<div class="row">
+    <div class="col-md-12 topbar">
+      <mat-card class="productcard">Users</mat-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 personaldetails">
+        <form [formGroup]="form">
+        <mat-card>
+            <div class="row personalbottom">
+                <div class="col-md-6 personalstyle">
+                <h4>Personal Details</h4>
+                </div>
+                <div class="col-md-6 text-right buttonstyle">
+                   <a routerLink="./personalpayments"><button mat-raised-button color="primary">save</button></a>
+                </div>
+              </div>
+              <div class="row textfieldstop">
+                <div class="col-md-6">
+                    <mat-form-field class="name">
+                        <!-- <input matInput placeholder="Name"> -->
+                        <input name="name" matInput placeholder="Name"  formControlName="name">
+                        <div *ngIf="form.get('name').touched && form.get('name').invalid"></div>
+                      </mat-form-field>
+                </div>
+                <div class="col-md-3">
+                    <mat-form-field class="textfieldstyle">
+                        <input name="phno" matInput placeholder="Ph.No" formControlName="phno">
+                        <div *ngIf="form.get('phno').touched && form.get('phno').invalid"></div>
+                      </mat-form-field>
+                </div>
+                <div class="col-md-3">
+                    <mat-form-field class="textfieldstyle">
+                        <input  name="email" matInput placeholder="Email" formControlName="email">
+                        <div *ngIf="form.get('email').touched && form.get('email').invaild"></div>
+                      </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-3">
+                    <mat-form-field class="textfieldstyle">
+                        <mat-select placeholder="Community">
+                          <mat-option *ngFor="let milk of milks" [value]="milk.value">
+                            {{ milk.viewValue }}
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                      
+                  </div>
+                  <div class="col-md-3">
+                    <mat-form-field class="textfieldstyle">
+                        <mat-select placeholder="Sub-Community">
+                          <mat-option *ngFor="let milk of milks" [value]="milk.value">
+                                {{ milk.viewValue }}
+                         </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                      
+                  </div>
+                  <div class="col-md-3">
+                        <mat-form-field class="textfieldstyle">
+                                <input name="flatno" matInput placeholder="Flat.no" formControlName="flatno">
+                                <div *ngIf="form.get('flatno').touched && form.get('flatno').invalid"></div>
+                              </mat-form-field>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-3">
+                        <mat-form-field class="textfieldstyle">
+                                <input name="locality" matInput placeholder="Locality" formControlName="locality">
+                                <div *ngIf="form.get('locality').touched && form.get('locality').invalid"></div>
+                              </mat-form-field>
+                  </div>
+                  <div class="col-md-3">
+                        <mat-form-field class="textfieldstyle">
+                                <input  name="city" matInput placeholder="City" formControlName="city">
+                                <div *ngIf="form.get('city').touched && form.get('city').invalid"></div>
+                              </mat-form-field>
+                  </div>
+                  <div class="col-md-3">
+                        <mat-form-field class="textfieldstyle">
+                                <input name="state" matInput placeholder="State" formControlName="state">
+                                <div *ngIf="form.get('state').touched && form.get('state').invalid"></div>
+                              </mat-form-field>
+                  </div>
+                  <div class="col-md-3">
+                        <mat-form-field class="textfieldstyle">
+                                <input  name="pincode" matInput placeholder="Pincode" formControlName="pincode">
+                                <div *ngIf="form.get('pincode').touched && form.get('pincode').invalid"></div>
+                              </mat-form-field>
+                  </div>
+                  </div>
+        </mat-card>
+        </form>
+    </div>
+  </div>
+  
+  </div>
+  
+  

@@ -1,0 +1,38 @@
+<div class="section banner">
+  <div class="row ">
+    <div class="col-md-12">
+      <div class="col-md-4 col-md-offset-4">
+        <mat-card class="logincards logincard">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img src="/assets/images/digi.png">
+            </div>
+            <div class="col-md-12 lg">
+              <form class="example-form" [formGroup]="form">
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Email" value="college@123.com" formControlName="email"
+                  pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+                  <div *ngIf="form.get('email').touched && form.get('email').invalid"></div>
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                  <input type="password" matInput placeholder="Password" value="password" [type]="hide ? 'password' : 'text'" formControlName="password">
+                  <div *ngIf="form.get('password').touched && form.get('password').invalid"></div>
+                  <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                </mat-form-field>
+                <div class="col-md-12 lg">
+                  <a routerLink="/dashboard">
+                    <button mat-raised-button class="loginbtn">LOGIN</button>
+                  </a>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-md-12 text-right">
+              <h6 class="forgot">Forgot your password?</h6>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

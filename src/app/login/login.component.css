@@ -1,0 +1,43 @@
+.banner {
+  background: url('/assets/images/home.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  
+ }
+ .logincard{
+  margin-top:15%;
+ }
+ .row{
+   margin: 0px;
+ }
+ img{
+  width: 70px;
+ }
+ mat-card{
+  width: 73%;
+  /* height: 174%; */
+  margin: auto;
+  padding: 20px;
+ }
+ 
+ .example-full-width {
+  width: 99%;
+ }
+ .lg{
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+ .loginbtn{
+  /* padding-left: 45%;
+  padding-right: 43%; */
+  width: 100%;
+  background-color: #fcb900 ;
+  color:#ffffff ;
+ }
+ .forgot{
+  font-size: 12px;
+ }

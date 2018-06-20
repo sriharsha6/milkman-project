@@ -1,0 +1,107 @@
+   .body{
+    font-family: Roboto;
+ }
+ .container{
+    width: 100%;
+ }
+   
+ .topbar{
+     height: 56px;
+    background-color: #ffffff ;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+   }
+   .productcard{
+       padding: 10px;
+       font-family: Roboto;
+       font-size: 20px;
+       text-align: left;
+       color: #000000 ;
+   }
+   /* here starting search bar css */
+   .searchbar{
+    margin-top: 0px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+   #imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: #f5f4f5 !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+    border-color:#ccc;
+    background-color: #f5f4f5;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+/* here starting milkproduct card css */
+.fullcream{
+    margin-top:10px;
+    padding-left: 9px;
+}
+.milkcard{
+   border-radius: 4px;
+   /* border-left-color:#4285f4 ;  */
+   border-left-style: solid ;
+   border-left-color: #4285f4 ;
+   border-left-width: 5px;
+   padding: 15px
+}
+
+img{
+    width: 40px;
+}
+.milkpac{
+   border-bottom-style: solid;
+   border-bottom-color: #e1e1e1 ; 
+}
+.milkimg{
+padding:10px;
+}
+.milkheading{
+
+}
+.Litre{
+   border-bottom-style: solid;
+   border-bottom-color: #e1e1e1 ;  
+}
+.mat-form-field {
+   width: 125px;
+   
+}
+.cardvalue{
+    padding-left: 16px;
+}
+/* .mat-form-field-wrapper{
+   padding-left:16px;
+} */
+.rup{
+   padding-right:15px;
+}
+.addsymbol{
+    padding-right: 0px;
+}
+.mls{
+   border-bottom-style: solid;
+   border-bottom-color: #e1e1e1 ;  
+}
+
+.add{
+   color:  #34a853 ;
+   margin: 5px;
+}
+
+ .adds{
+    background-color:  #fbbc05 ;
+    color: #ffffff ;
+    margin-top: 29%;
+    margin-right:0px;
+    width: 40px;
+  } 

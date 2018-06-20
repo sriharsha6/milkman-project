@@ -1,0 +1,103 @@
+.body{
+font-family: Roboto;
+}
+.container{
+width: 100%;
+}
+
+.topbar{
+ height: 56px;
+background-color: #ffffff ;
+padding-left: 0px;
+padding-right: 0px;
+margin: 0px;
+}
+.Vendorcard{
+   padding: 10px;
+   font-family: Roboto;
+   font-size: 20px;
+   text-align: left;
+  
+}
+.searchbar{
+  margin-top: 0px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+ #imaginary_container{
+  margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+  background: #f5f4f5 !important; 
+}
+.stylish-input-group .form-control{
+   border-right:0; 
+   box-shadow:0 0 0; 
+   border-color:#ccc;
+   background-color:#f5f4f5;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+
+.milksubscription{
+margin-top: 10px;
+font-size: 22px;
+font-weight: 500;
+text-align: left;
+padding-left: 0px;
+}
+.calender {
+margin-top: 10px;
+width: 166px;
+height: 36px;
+border-radius: 100px;
+background-color: #ffffff ;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+} 
+.calenders{
+ width: 100px;
+height: 4.8px;
+color: #fbbc05 ;
+padding-top: 0px;
+padding-left:10px;
+
+} 
+input{
+display: block;
+} 
+.cards{
+padding-left:4px;
+margin-left: 0px;
+}
+.milkcard{
+margin:5px;
+padding-left: 0px;
+border-radius: 4px;
+/* border-left-color:#4285f4 ;  */
+border-left-style: solid;
+border-left-color: #4285f4 ;
+border-left-width: 5px;
+padding: 10px;
+
+}
+
+img{
+margin-top: 10px;
+width: 50px;
+height: 60px;
+}
+.milkheading1{
+font-size:15px;
+}
+.milkheading2{
+font-size:13px;
+}
+.milkheading3{
+font-size:10px;
+}
+
+.rups{
+padding-top:55px;
+}
